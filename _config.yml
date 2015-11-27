@@ -1,10 +1,10 @@
-auto: true 
+auto: true
 # Site settings
 title: Nan's Homepage
 email: dunan00001@hotmail.com
 url: https://strideradu.github.io
 description: "Homapage of Nan Du, Computer Science Ph.D. in Michigan State University"
-skills: "Computer Scientist - Bioinformatist - Algorithm Engineer"
+skills: "Computer Science Ph.D. - Bioinformatist"
 meta_author: Nan Du
 
 # Google webmaster tools
@@ -44,9 +44,9 @@ social:
   - title: facebook
     url: https://www.facebook.com/Nielsendu
   - title: stack-overflow
-    url: 
+    url:
   - title: bitbucket
-    url: 
+    url:
   - title: github
     url: https://github.com/Strideradu
 
