@@ -454,3 +454,43 @@ footer .footer-below {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
 }
+
+// resume content styles
+
+.content-section {
+  margin: 0 0 3rem;
+
+  .resume-item { margin-bottom: 2rem; }
+
+  .resume-item-title {
+    @include sans_bold;
+    margin: 0 0 .75rem;
+    font-size: 1.5rem;
+    letter-spacing: -.05rem;
+    line-height: 1;
+  }
+
+  .resume-item-details {
+    font-size: 1.125rem;
+    margin: 0 0 .75rem;
+    line-height: 1;
+  }
+
+  .resume-item-title,
+  .resume-item-details,
+  .resume-item-copy,
+  .resume-item-list {
+    a {
+      color: #333;
+      text-decoration: none;
+      border-bottom: 1px solid;
+
+      &:hover {
+        border-bottom: none;
+        color: #9c9c9c;
+      }
+    }
+  }
+
+  .resume-item-copy { margin: .75rem 0 0; }
+}
