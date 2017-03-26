@@ -259,14 +259,14 @@ blockquote p:last-child {
 }
 
 #profile .portrait-title h2 {
-  font-size: 1.75em;
+  font-size: 1.2em;
   font-weight: 300;
   color: #000000;
   margin: 20px 0 10px 0;
 }
 
 #profile .portrait-title h3 {
-  font-size: 1.13em;
+  font-size: 1em;
   font-weight: 300;
   color: #AAAAAA;
   margin: 0px 0 10px 0;
@@ -290,7 +290,7 @@ blockquote p:last-child {
 }
 
 #profile .social-icon li:hover {
-  transform: scale(1.2)
+  transform: scale(0.8)
 }
 
 .big-icon {
@@ -298,7 +298,7 @@ blockquote p:last-child {
 }
 
 ul.ul-interests li {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 ul.ul-edu {
@@ -315,7 +315,7 @@ ul.ul-edu li .description p {
 }
 
 ul.ul-edu li .description p.course {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 ul.ul-edu li .description p.institution {
@@ -496,7 +496,7 @@ article {
 
 .pub-icon {
   color: #03396c;
-  font-size: 0.81em;
+  font-size: 0.8em;
   padding-top: 6px;
 }
 
@@ -509,6 +509,7 @@ article {
 
 .pub .pub-title {
   margin-bottom: 5px;
+  font-size: 1rem;
 }
 
 .pub .pub-authors {
@@ -525,19 +526,20 @@ article {
 }
 
 .pub-list-item .pub-abstract {
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 .pub-list-item .pub-authors {
   line-height: normal;
   font-style: normal;
-  font-size: 1rem;
-  color: #3170A5;
+  font-weight: bold;
+  font-size: 0.8rem;
+  #color: #3170A5;
 }
 
 .pub-list-item .pub-publication {
   color: #090;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 .pub-list-item .pub-links {
