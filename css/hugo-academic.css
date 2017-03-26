@@ -237,6 +237,30 @@ blockquote p:last-child {
   color: #b2b2b2;
 }
 
+.image-section {
+  background-color: rgb(255, 255, 255);
+  padding: 0px 0 0px 0;
+  animation: intro 0.3s both;
+  animation-delay: 0.15s;
+}
+
+.image-section:first-of-type {
+  padding-top: 0px;
+}
+
+.image-section:nth-of-type(even) {
+  background-color: rgb(247, 247, 247);
+}
+
+@media screen and (max-width: 768px) {
+  .image-section {
+    padding: 0 0 0 0;
+  }
+  .image-section:first-of-type {
+    padding-top: 0px;
+  }
+}
+
 /*************************************************
  *  Biography
  **************************************************/
