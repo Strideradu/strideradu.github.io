@@ -10,5 +10,27 @@
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>How to generate header image in my website using DeepDream, 用DeepDream提高网站逼格= =</title>
+      <link>https://strideradu.github.io/post/DeepDream_Image/</link>
+      <pubDate>Sun, 26 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://strideradu.github.io/post/DeepDream_Image/</guid>
+      <description>&lt;p&gt;费了很大劲终于调好了站点，于是想着再学着一些网站加一个封面图，首先想到的是找个MSU的或者大济南的，可是找了半天没找到逼格够高的，这是突然瞅到了旁边的《Deep Learning》的封面。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://strideradu.github.io/img/DeepDreamPost/DeepLearningCover.jpg&#34; alt=&#34;Deep Learning 封面图&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;看了下背面的注解，是一个叫&lt;a href=&#34;http://www.danielambrosi.com&#34; target=&#34;_blank&#34;&gt;Ddaniel Ambrosi&lt;/a&gt;的哥们用自己拍的全景照片再用谷歌的DeepDream神经网络处理的~逼格满满啊！！！于是冲到网站搞了他那副灯塔的逼格图~不过紧接着就发现人家图片上说版权所有不让乱用……嗯，那我们自己做一副！&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://strideradu.github.io/img/DeepDreamPost/MSU_Beaumont_Tower_1.jpg&#34; alt=&#34;MSU Beaumont Tower&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Beaumont Tower是MSU的标志性建筑， 我用谷歌图片搜了一副比较满意的图片。然后下面进入&lt;a href=&#34;https://deepdreamgenerator.com/generator-style&#34; target=&#34;_blank&#34;&gt;DeepDream&lt;/a&gt;的在线生成器，开始创作！网站里可以选择Deep Style还是Deep Dream, style应该是模仿一些画家的风格。话不多说我进入了Deep Dream， 上传图片，有一些选项，因为我要高清图所以后面Depth只能选Normal。比较关键的是Neural Network Layer，决定了最后生成的风格。一开始我选的是inception_4a-pool，生成的图片好多眼睛似的玩意，看上去有点瘆得慌。我马上又换了conv2_3x3_reduce, 嗯这下看上去很像印象派风格了！搞定！&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://strideradu.github.io/img/MSU_Beaumont_Tower_deepdream.jpg&#34; alt=&#34;MSU Beaumont Tower&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;这幅题图既是MSU的标志建筑，还用上了最火的深度学习，产生了印象派风格的图片，达到了我期望的逼格！&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
